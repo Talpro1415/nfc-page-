@@ -55,7 +55,7 @@
         document.getElementById("status").innerText = "Access granted!";
 
         // Trigger Join webhook
-        fetch("https://joinjoaomgcd.appspot.com/_ah/api/messaging/v1/sendPush?apikey=YOUR_API_KEY&deviceId=YOUR_DEVICE_ID&text=nfc_trigger")
+        fetch("https://joinjoaomgcd.appspot.com/_ah/api/messaging/v1/sendPush?apikey=a0dff7af1cca4bd286ed9d3f0ec2466a&text=unlockpc%3D5544&deviceId=bdfba64ca50540d4ab852e7bac9fd84b")
           .then(() => {
             document.getElementById("status").innerText = "Triggered successfully!";
           })
